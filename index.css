@@ -1,0 +1,28 @@
+.styl{
+    background-color: rgb(91, 218, 108);
+    font-size: medium;
+    border: solid;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: center;
+    font-style: bold; 
+}
+#ima{
+    /* padding: 35px;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center; */
+    
+    background-image: url(happy\ life.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
